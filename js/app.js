@@ -2,8 +2,8 @@ var Bingo = Bingo || {};
 
 Bingo.gridBase = 7;
 Bingo.gridHeight = 7;
-Bingo.width = 350;
-Bingo.height = 350;
+Bingo.width = 700;
+Bingo.height = 700;
 
 Bingo.createGrid = function() {
   var body = document.getElementsByTagName('main')[0];
