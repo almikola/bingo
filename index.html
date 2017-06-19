@@ -4,19 +4,26 @@
     <meta charset="utf-8">
     <title>Dick Bingo</title>
     <link rel="stylesheet" href="css/style.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="js/app.js" charset="utf-8"></script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
   </head>
 
   <body>
-    <div class="heading">
+    <div>
       <h1>Dick Bingo</h1>
-      <p>Portland fap 3 wolf moon locavore, truffaut poutine glossier slow-carb la croix ennui cardigan helvetica brunch. Craft beer bitters forage, swag glossier chicharrones jianbing tumblr man braid. Chartreuse hell of raw denim, gochujang readymade activated charcoal selfies keffiyeh umami slow-carb chicharrones leggings jean shorts. Lo-fi beard gastropub waistcoat, live-edge PBR&B seitan affogato vice chambray banjo fashion axe pour-over hell of. </p>
+      <p class="heading">Portland fap 3 wolf moon locavore, truffaut poutine glossier slow-carb la croix ennui cardigan helvetica brunch. Craft beer bitters forage, swag glossier chicharrones jianbing tumblr man braid. Chartreuse hell of raw denim, gochujang readymade activated charcoal selfies keffiyeh umami slow-carb chicharrones leggings jean shorts. Lo-fi beard gastropub waistcoat, live-edge PBR&B seitan affogato vice chambray banjo fashion axe pour-over hell of. </p>
     </div>
     <main>
-
+      <ul class="grid">
+        <li onclick="myFunction()"><p class="card">Cat</p>
+          <p id="0" style="display:none;">it worked!</p>
+        </li>
+        <li onclick="myFunction()"><p class="card">Dog</p></li>
+        <li onclick="myFunction()"><p class="card">Mouse</p></li>
+        <li onclick="myFunction()"><p class="card">House</p></li>
+      </ul>
     </main>
 
-    <footer>©Sophie Cottrell. Built by A.Mikola</footer>
+    <footer>©Sophie Cottrell.</footer>
   </body>
 </html>

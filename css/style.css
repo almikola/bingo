@@ -4,38 +4,43 @@ body {
   text-align: center;
 }
 
-#heading {
-  width: 700px;
-  margin: 0 auto;
-  font-family: sans-serif;
-}
-
 h1 {
   font-size: 80px;
   margin-bottom: 0;
   margin-top: 15px;
 }
 
+p.heading {
+  margin: 0 150px;
+}
+
 main {
   margin: 0 auto;
   margin-top: 25px;
-  width: 700px;
-  height: 700px;
+  width: 600px;
+  height: 600px;
 }
 
-ul {
+ul.grid {
   margin: 0 auto;
   padding: 0;
-  width: 700px;
-  height: 700px;
+  width: 600px;
+  height: 600px;
   border: 2px solid #ffffff;
 }
 
 li {
   list-style-type: none;
+  width: 300px;
+  height: 300px;
   float: left;
   border: 1.5px solid #ffffff;
   box-sizing: border-box;
+}
+
+p.card {
+  font-family: sans-serif;
+  font-size: small;
 }
 
 footer {
